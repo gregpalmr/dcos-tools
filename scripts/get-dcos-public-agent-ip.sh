@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# SCRIPT:	get-dcos-public-agent-ip.sh
+# SCRIPT:   get-dcos-public-agent-ip.sh
 #
-# DESCR:	Get the Amazon Public IP Address for the public DCOS agent nodes. If
+# DESCR:    Get the Amazon Public IP Address for the public DCOS agent nodes. If
 #           no arguments are supplied it will attempt to start on 2 pubic agent nodes.
 #
 # USAGE:    get-dcos-public-agent-ip.sh <num-pub-agents>
@@ -61,6 +61,7 @@ sleep 2
 
 dcos marathon app remove get-public-agent-ip
 
+rm /tmp/get-public-agent-ip.json
 echo
 
 # end of script
