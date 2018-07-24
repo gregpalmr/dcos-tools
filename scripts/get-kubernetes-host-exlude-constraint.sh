@@ -3,7 +3,7 @@
 # SCRIPT: get-kubernetes-host-exlude-constraint.sh
 #
 # DESCR: Create a Marathon constraint that excludes host ip addresses that
-#        already having Kubernetes tasks running on them.
+#        already have  Kubernetes tasks running on them.
 #
 #        [["@hostname", "unlike", "<IP_ADDRESS_1>|<IP_ADDRESS_2>|<IP_ADDRESS_3>|<IP_ADDRESS_4>|<IP_ADDRESS_5>"]]
 #
